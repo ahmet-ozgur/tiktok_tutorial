@@ -44,7 +44,7 @@ class SignupScreen extends StatelessWidget {
                   left: 80,
                   child: IconButton(
                     onPressed: () {
-                      print('Pick Image Clicked');
+                      debugPrint('Pick Image Clicked');
                     },
                     icon: const Icon(Icons.add_a_photo),
                   ),
